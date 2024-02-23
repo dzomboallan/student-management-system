@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "25c5826c-806e-4533-a5f7-1e72124ff89b",
+		"name": "Student management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/student/1",
+			"id": "0b6687b4-c17f-495b-99b8-e4a05839bf78",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/student/1"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/students",
+			"id": "2ce9a26c-b872-423d-ad3d-33f6678ac367",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/students"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/student/add",
+			"id": "ab117e6e-efaf-4134-b0fe-9d3254aa08a1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Aisha\",\n    \"percentage\": 7.0,\n    \"branch\": \"IT\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/student/add"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/student/update/1",
+			"id": "f7cc4fae-2ee5-425d-8f48-69aa1b45aa74",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "localhost:8080/student/update/1"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/student/delete/77",
+			"id": "2ab97aca-0078-42e5-b575-efd96075540c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:8080/student/delete/77"
+			},
+			"response": []
+		}
+	]
+}
